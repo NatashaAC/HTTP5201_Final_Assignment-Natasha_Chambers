@@ -1,0 +1,14 @@
+{
+    "home": {
+        "title": "Hi, This is the Final Assignment!"
+    },
+    "qaPage": {
+        "title": "This is the Quality Assurance Page!"
+    },
+    "securityPage": {
+        "title": "This is the Security Page!"
+    },
+    "badExPage": {
+        "title": "This is the Bad Example Page!"
+    }
+}

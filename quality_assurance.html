@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Assignment 4 - Quality Assurance</title>
+    </head>
+    <body>
+        <div id="qaPage"></div>
+        <h2>QA Measures on Website</h2>
+        <div>
+            <h3>Code Liniting</h3>
+            <p>
+                A linter helps to validate code you've written and flag any style errors 
+                found on the website. It's different from a validator because it catches mistakes
+                that are technically allowed, but are not correct due to coding standards.
+            </p>
+        </div>
+        <div>
+            <h3>Unit Testing</h3>
+            <p>
+                Unit testing is done by importing a file into a test file using a testing framework or assertion library to write tests. In order to run the tests, you need use Node. 
+                This is done because it ensures that code meets quality standards before the website or application is deployed.
+            </p>
+            <p>
+                For this website I am using the framework Mocha for my unit testing.
+                I pass in an array of different numbers and I am checking to see if 
+                the array contains a nine, if it does the test fails. 
+            </p>
+        </div>
+        <script type="module" src="/modules/q&a.js"></script>
+    </body>
+</html>

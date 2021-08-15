@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Assignment 4 - Bad Examples</title>
+    </head>
+    <body>
+        <div id="badExPage"></div>
+        <div>
+            <h2>Explains how to both violate and remedy a security practice.</h2>
+            <h3>How to Violate a Security Practice</h3>
+            <p>
+                In order to violate the sensitive data exposure security practice, 
+                you should use the method GET instead of POST for a form. All of the user information will be displayed in the URL, 
+                which is easier access for you. If you are sending the information to be stored within a database 
+                do not encrypt the names, passwords, or credit card information. 
+                This will make it easier for you and others to understand the information within the database. 
+                Also collect a lot of information from the user, 
+                the more you collect the easy it is to sell to third parties. 
+            </p>
+            <h3>How to Remedy a Security Practice Violation</h3>
+            <p>
+                To remedy or correct sensitive data exposure you should encrypt all sensitive information that you receive from the user. 
+                For example, debit and credit card information, passwords, and home addresses. This will help to keep the user’s data and your site from getting hacked. 
+                Make sure to get an SSL certificate and to make all connections enforce TLS. Setup a Strict Transport Security header. 
+                Do not expose any sensitive data on your website. For example, displaying a user’s all of a user’s credit card information on a page that is not secure. 
+                Hackers can easily grab that information and use it to buy what they want, which is bad for your user.
+            </p>
+        </div>
+        <div>
+            <h3>Demonstrates and documents a live example of a bad security practice.</h3>
+            <form action="#" method="GET">
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input id="fullname" type="text" name="fname" />
+                </div>
+                <div>
+                    <label for="creditnum">Credit Card Number</label>
+                    <input id="creditnum" type="text" name="cnumber" />
+                </div>
+                <div>
+                    <label for="creditexpiry">Expiry</label>
+                    <input id="creditexpiry" type="text" name="cexpiry" />
+                </div>
+                <div>
+                    <label for="cvc">CVC</label>
+                    <input id="cvc" type="text" name="cvc" />
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" />
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" name="password" />
+                </div>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+        <script type="module" src="/modules/badex.js"></script>
+    </body>
+</html>

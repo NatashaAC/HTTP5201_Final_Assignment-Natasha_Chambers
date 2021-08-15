@@ -1,0 +1,21 @@
+{
+  "name": "http5201-final-assignment-natasha-chambers",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "sass": "^1.37.5",
+    "vite": "^2.4.4"
+  },
+  "main": "main.js",
+  "dependencies": {},
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
